@@ -27,3 +27,27 @@
 **Link:** https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8387.pdf 
 
 **Relevance: 5/5** – Super helpful because collecting evidence is only half the battle. This shows me how to protect what I find so it actually counts if anyone questions it later. 
+
+**Resource 3**
+
+**Citation:** Peter Brockie. (2018, February 2). Cellebrite UFED Cellphone Forensic Extraction Device teardown YouTube. https://www.youtube.com/watch?v=7LLGGCXH9MQ 
+
+**Type:** Webinar/Technical Video 
+
+**Synopsis:** This webinar digs into Cellebrite UFED which is basically the tool investigators use in the field. It shows what the device can do and how it works and talk through how it connects to phones. Seeing the device in action connects the dots between theory and the physical process of extraction.
+
+**Link:** https://www.youtube.com/watch?v=7LLGGCXH9MQ
+
+**Relevance: 5/5** — Honestly this video helped everything click. Seeing the UFED in action made the whole extraction process feel way more real. It’s one thing to read about how data gets pulled from phones…. It’s another to actually watch the tool do its thing. This is the kind of tech I’d be working with so yeah super relevant. 
+
+**Resource 4**
+
+**Citation:** Mobile forensics - iOS and Android. (n.d.). YouTube. https://m.youtube.com/watch?v=TFjEg6g2bW4 
+
+**Type:** Educational Video 
+
+**Synopsis:** This video, doesn’t just talk about mobile forensics. It actually shows it happening on iOS and Android. You can see each steps, the tools and the differences between the two systems. To be honest It’s super beginner friendly and easy to follow.  
+
+**Link:** https://m.youtube.com/watch?v=TFjEg6g2bW4 
+**Relevance: 5/5** – I’m a visual learner so watching someone do it, helps me picture my own first run through instead of just guessing from text. 
+
