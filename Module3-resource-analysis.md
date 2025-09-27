@@ -1,4 +1,4 @@
-**Topic 1 – Digital Evidence Collection for Mobile Devices**
+# Topic 1 – Digital Evidence Collection for Mobile Devices
 
 **Resource 1** 
 
