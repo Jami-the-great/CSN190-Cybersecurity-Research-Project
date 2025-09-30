@@ -99,3 +99,92 @@
 **Link:** https://m.youtube.com/watch?v=QYq_DzLJJng 
 
 **Relevance: 5/5** – I love this because it makes the process feel real. You literally get to sit back and watch someone pull apart the malware file and inspect its signatures and headers. Then you see it run in a sandbox to catch its live behaviour.  
+
+
+
+
+# GitHub Project 1 — Digital-Forensics-Guide
+
+Citation: mikeroyal. (n.d.). GitHub - mikeroyal/Digital-Forensics-Guide: Digital Forensics Guide. Learn all about Digital Forensics, Computer Forensics, Mobile device Forensics, Network Forensics, and Database Forensics. GitHub. Retrieved September 26, 2025, from https://github.com/mikeroyal/Digital-Forensics-Guide
+
+Type: Educational / Reference Guide
+
+Synopsis: This repo feels like a cheat sheet. It doesn’t do the work for you but it lines up all the big concepts, tools and links so you’re not lost in the air. Mobile device forensics, computer forensics, network forensics and database forensics is all in here. I see it as the “GPS” before you start driving… The only catch, it’s more guide than hands on so you still need to bring your own tools.
+
+Stars/forks: 2.3k stars, 252 forks (active popularity)
+
+Activity: 81 commits, includes “Getting Started with Digital Forensics” scripts and a glossary.  
+
+Strengths: Excellent for learning for finding tools you didn’t know and for linking out to other repos. It’s a strong “first stop” when exploring the field.
+
+Link: https://github.com/mikeroyal/Digital-Forensics-Guide
+
+Relevance: 4/5 — Perfect for orientation but not enough by itself. You’ll need other tools in play to actually collect and preserve evidence.
+
+# GitHub Project 2 — SleuthKit
+
+Citation: sleuthkit. (2025). The Sleuth Kit (TSK). GitHub. https://github.com/sleuthkit/sleuthkit
+
+Type: Forensic Toolkit
+
+Synopsis: SleuthKit is the old reliable of digital forensics. It lets you dig into disk images, partitions, file systems, uncovering deleted files, hidden metadata and activity trails. It’s the kind of tool investigators quietly rely on when they need solid, defensible evidence. It doesn’t hold your hand or wow you with a flashy interface, but that’s kind of the point ( it’s serious, raw, and respected in the field).
+
+Link: https://github.com/sleuthkit/sleuthkit
+
+Relevance Rating: 5/5 — Exactly what evidence work requires, depth, reliability and credibility in court.
+
+
+
+# Topic 2: Static vs Dynamic Malware Analysis
+
+GitHub Project 3 — MobSF
+
+Citation: MobSF. (n.d.). GitHub - MobSF/Mobile-Security-Framework-MobSF: Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis. GitHub. Retrieved September 26, 2025, from https://github.com/MobSF/Mobile-Security-Framework-MobSF
+
+Type: Static + Dynamic Analysis Framework
+
+Synopsis: MobSF is an awesome all in one tool for mobile app security. It can perform static analysis (code, manifest, binaries), dynamic analysis (behavior/runtime) and even malware scanning for Android, iOS and Windows mobile platforms. It includes dashboards, reporting, hooks for instrumenting apps, etc.
+
+Stars/forks: high community use and visibility.  
+
+Activity: actively maintained with updates and issue tracking ongoing.  
+
+Strengths: covers static and dynamic views, rich UI and good for experimentation.
+
+Limitations: setup may be complicated (emulators, dependencies) possibly heavy resource usage. Also not strictly “evidence collection” in the legal sense more toward app security/malware screening.
+
+Link: https://github.com/MobSF/Mobile-Security-Framework-MobSF
+
+Relevance: 5/5 — This one ties both of my topics together(mobile devices + malware behavior). Definitely demo worthy.
+
+
+
+# GitHub Project 4 — malwareHunter
+
+Citation: Abdesslem. (n.d.). GitHub - abdesslem/malwareHunter: Static and automated/dynamic malware analysis. GitHub. https://github.com/abdesslem/malwareHunter
+
+Type: Malware Static/Dynamic Analysis Utility / Tool
+
+Synopsis: malwareHunter is designed to automate parts of malware analysis (static and dynamic) aspects. It helps in identifying malware signatures, behaviors and runs certain analysis modules. It reminds me of starting out in Python…. Short scripts that do one thing well. It keeps things simple enough that you can actually focus on learning instead of wrestling with the setup.
+
+Limitation: it’s not as deep as Cuckoo or MobSF but easier to digest.
+
+Link: https://github.com/abdesslem/malwareHunter
+
+Relevance: 4/5 — Not the star of the show but a great sidekick for learning and experimenting.
+
+
+
+# Comparison Notes
+
+Forensics Tools: Digital Forensics Guide is the map while SleuthKit is the shovel. They balance each other out…. One shows you what’s out there and the other lets you actually dig. 
+
+Malware Side: MobSF is the big lab setup that gives you both static and dynamic views in one place. While malwareHunter is the smaller toolkit you keep in your pocket… Together they make a good balance, one teaches you the deep stuff and the other lets you practice without getting buried in complexity.
+
+# Questions That Emerged
+
+1. How do I go from messing around with smaller tools like malwareHunter, to feeling confident with bigger ones like SleuthKit and MobSF when it comes to real investigations?
+
+2. How can I practice with these tools now, in a way that actually prepares me for the kind of cases I want to work on in the future?
+
+3. What I’m noticing is every tool teaches me something different, so how do I pull all those lessons together into one clear path toward becoming a digital forensic examiner?
