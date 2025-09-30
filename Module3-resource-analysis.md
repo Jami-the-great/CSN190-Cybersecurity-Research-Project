@@ -137,7 +137,7 @@ Relevance Rating: 5/5 — Exactly what evidence work requires, depth, reliabilit
 
 # Topic 2: Static vs Dynamic Malware Analysis
 
-GitHub Project 3 — MobSF
+# GitHub Project 3 — MobSF
 
 Citation: MobSF. (n.d.). GitHub - MobSF/Mobile-Security-Framework-MobSF: Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis. GitHub. Retrieved September 26, 2025, from https://github.com/MobSF/Mobile-Security-Framework-MobSF
 
