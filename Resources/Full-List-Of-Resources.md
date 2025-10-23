@@ -7,7 +7,7 @@
 ## Articles 
 1. - https://iacis.org/iis/2024/3_iis_2024_94-108.pdf
 2. - https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8387.pdf
-3. - chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.stechnolock.com/article/Forensic-Encryption-Discovering.pdf
+3. - https://www.stechnolock.com/article/Forensic-Encryption-Discovering.pdf
 
 
 ## Multimedia / Videos
