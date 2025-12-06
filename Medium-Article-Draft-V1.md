@@ -206,4 +206,41 @@ Breakdown:
 | bs=1M | Copy in 1MB blocks |
 | Count 1000 | Only first 1GB for fast testing |
 
+<img width="1400" height="900" alt="Screen Shot 2025-12-05 at 6 21 44 PM" src="https://github.com/user-attachments/assets/2ee0cbdc-db52-44d3-a5a5-193aade2317a" />
 
+Then I added a juicy clue inside the VM:
+
+password.txt → “Thegreat1234.”
+
+If future me ever denies it, the digital evidence will drag me.
+
+![EVIDENCE1](https://github.com/user-attachments/assets/01eae89c-baab-4728-8ee2-2889d1981bda)
+
+Step 6 — Load Image into Autops
+
+Autopsy → Add Data Source → Disk Image → choose evidence.dd
+
+Autopsy begins indexing:
+
+● File names
+
+● Deleted files
+
+● Metadata
+
+● File system timeline
+
+(Slow is normal — crime scenes take time )
+
+<img width="1400" height="900" alt="Screen Shot 2025-12-05 at 6 29 18 PM" src="https://github.com/user-attachments/assets/83504cda-e1ff-49fb-8777-4210cb4abf19" />
+
+Troubleshooting (Documented Fixes)
+
+These errors tried to ruin my forensic dreams:
+
+| Problem | why it happened| fix| 
+|-----:|-------------------------|
+|if=/dev/sda | Input file = whole VM disk |
+|of=evidence.dd | Output file = forensic image|
+| bs=1M | Copy in 1MB blocks |
+| Count 1000 | Only first 1GB for fast testing |
