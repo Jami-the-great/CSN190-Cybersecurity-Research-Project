@@ -238,9 +238,8 @@ Troubleshooting (Documented Fixes)
 
 These errors tried to ruin my forensic dreams:
 
-| Problem | why it happened| 
+| Problem |why it happened|
 |-----:|-------------------------|
-|if=/dev/sda | Input file = whole VM disk |
-|of=evidence.dd | Output file = forensic image|
-| bs=1M | Copy in 1MB blocks |
-| Count 1000 | Only first 1GB for fast testing |
+|“File Analysis Disabled”|I accidentally added duplicate images | Restart case + Add image once |
+|“Invalid Host”| Broken case directory| Delete case folder + create new|
+|GUI wouldn’t appear|Autopsy wasn’t running in terminal | Relaunch sudo autopsy |
