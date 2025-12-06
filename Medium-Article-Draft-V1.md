@@ -34,15 +34,21 @@ file, timestamp and deleted selfie can become evidence. Autopsy is used by cyber
 investigators in:
 
 ● Law Enforcement
+
 ● Corporate security & insider threat teams
+
 ● Digital Forensics & Incident Response units (DFIR)
 
 Why? Because Autopsy can do things your Recycle Bin could never dream of:
 
 ● Recover deleted files
+
 ● Reconstruct user activity
+
 ● Analyze web browsing & downloads
+
 ● Extract metadata (the secret details files leave behind)
+
 ● Build timelines of what happened, when and by who
 
 It’s like a time machine for digital evidence and I wanted to learn how to drive it.
