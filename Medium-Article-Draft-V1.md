@@ -396,3 +396,328 @@ By the end of my investigation, I confirmed:
 |Evidence image | loaded Successful|
 |User directory | parsed Visible|
 |password.txt |located Found |
+|Content readable | “Thegreat1234.”|
+|Metadata extracted |Timeline built|
+
+This wasn’t a fake classroom dataset..... This was real user evidence from a real system.
+
+This is Why This Was So important for Me
+
+I wasn’t just looking at files.
+
+I was uncovering digital behavior.
+
+Something I created casually in the VM suddenly became:
+
+● Traceable
+
+● Documented
+
+● Investigable
+
+And if this were a real insider threat case?
+
+That password could be the key to the entire compromise.
+
+Forensics teaches one ultimate lesson:
+
+There’s no such thing as “deleted.”
+
+Research Insights - What the Experts Say vs. What I Experienced
+
+To make sure my hands on experience lined up with real forensic standards, I analyzed two
+professional sources: a NIST digital forensics report and a forensic encryption research paper.
+
+Both, helped me understand the bigger picture behind the tiny clues I found inside my .dd
+image.
+
+Article 1:
+
+National Institute of Standards and Technology (2022).
+
+“Digital Investigations: Evidence Retention and Verification.”
+
+https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8387.pdf
+
+This is an official government publication, that helps define how digital evidence should be
+preserved and validated during investigations. NIST emphasizes that the most important rule
+in forensics is maintaining the integrity of the original data.... Meaning you should never
+modify a suspect device during analysis. Instead investigators create a forensic disk image
+that preserves:
+
+● deleted data
+
+● Slack space
+
+● Metadata
+
+● timestamps and file signatures
+
+This connected directly to what I did in my project. By using the dd command to create a bit
+for bit copy, I unknowingly followed a real world standard that actual forensic labs are legally
+required to follow. NIST also stresses repeatability and documentation which explains why
+Autopsy logged every scanned artifact and timestamp, those logs prove the evidence wasn’t
+tampered with.
+
+Key takeaway:
+I didn’t just make a random .dd file, I created a legally defensible copy of evidence. My
+process wasn’t just “school work” it was a valid investigative method.
+
+Article 2:
+
+S-Technolock (2023).
+
+“Forensic Encryption & Discovering Hidden Data.”
+
+https://www.stechnolock.com/article/Forensic-Encryption-Discovering.pdf
+
+This article explores how encrypted files, hidden partitions and user deleted data can still be
+uncovered through forensic imaging tools. It explains that even when a suspect uses
+encryption or wipes files, fragments remain inside unallocated disk space, exactly where a
+tool like Autopsy can dig.
+
+The paper gave examples of investigators recovering:
+
+● Passwords
+
+● deleted chat logs
+
+● concealed files
+
+● metadata proving user behavior
+
+This aligned perfectly with what happened when Autopsy exposed password.txt. Even though
+the file wasn’t deleted in my experiment, the research showed that if I had deleted it Autopsy
+still could have recovered it from unused space or metadata trails. The computer literally
+snitches on you.
+
+Key takeaway:
+
+My discovery of a single plain text password might seem small but in real world cases? That
+could be the key that unlocks everything else.
+
+Practice + Research = Real Understanding
+
+Hands on work taught me how Autopsy reveals data.
+
+Research taught me why it matters in criminal investigations. Together they showed me that
+digital forensics isn’t magic.... It’s science, process and a lot of tiny traces computers fail to
+hide.
+
+Challenges & Problem-Solving
+
+I wish I could say this project went smoothly....
+
+But the technical chaos taught me more than success ever could.
+
+Here are the most painful (but valuable) lessons:
+
+Failed Image Downloads
+
+Problem:
+
+Every official sample disk image I tried to download was broken — “NoSuchKey” “File Not
+Found” or the links were just dead.
+
+My Reaction:
+
+Confusion → frustration → consideration of career change
+
+Fix:
+
+ChatGPT suggested making my own disk image, which turned out to be the best decision of
+the project.
+
+Lesson:
+
+If the resources fail you.... Create your own.
+
+Autopsy Wouldn’t Launch Like a Normal App
+
+Problem:
+
+Clicking the desktop launcher did nothing.
+
+Fix:
+
+Learned I must launch it manually:
+
+sudo autopsy
+
+Lesson:
+
+Some cybersecurity tools aren’t “user friendly.”
+
+They expect YOU to be command line friendly.
+
+File Analysis Disabled” / “Invalid Host”
+
+Problem:
+
+I accidentally added the same disk image multiple times during a case.
+
+Fixes:
+
+● Delete corrupted case folder
+
+● Create a fresh case
+
+● Only attach evidence once
+
+Lesson:
+
+Autopsy is powerful.... But it will absolutely fight you back if you poke it wrong.
+
+Big Skill Takeaway:
+
+I didn’t just learn how to run Autopsy, I learned how to debug, adapt and keep going when
+everything breaks. That’s the real skill in cybersecurity.
+
+Conclusion & Future Applications
+
+This project didn’t just teach me how to open a forensic tool.... It taught me how to think like
+a digital investigator.
+
+At the start I felt like a student clicking buttons and hoping for the best. By the end, I was
+confidently analyzing a real disk image, interpreting timestamps and uncovering digital
+behavior including my own terrible password choices
+
+What I accomplished:
+
+● Installed and ran Autopsy inside Linux
+
+● Created a legitimate forensic .dd image using dd
+
+● Loaded and analyzed real user evidence
+
+● Identified artifacts & metadata like a real examiner
+
+● Documented errors and learned how to fix them
+
+What surprised me the most?
+
+How easy it is for a “normal” file to become forensic gold.
+
+One little password.txt file revealed:
+
+● Who created it
+
+● When it was written
+
+● Evidence of user activity
+
+● A possible starting point for a cyber investigation
+
+In the real world, that could be the thread that unravels an entire insider threat case or solves
+a crime.
+
+How This Changes My Path in Cybersecurity
+
+Before this assignment:
+
+Digital forensics felt like movie magic.
+
+After this assignment:
+
+I am the digital detective.
+
+I gained both technical skills:
+
+● Command-line tooling
+
+● Disk imaging
+
+● Artifact analysis
+
+● Metadata interpretation
+
+And soft skills that matter just as much:
+
+● Troubleshooting when everything breaks
+
+● Researching best practices
+
+● Clear documentation
+
+● Patience (lots of it)
+
+What’s Next for Me
+
+Now that I can properly analyze a disk image, I want to expand my forensics toolkit:
+
+Learn memory forensics with Volatility
+
+Practice network forensics using Wireshark
+
+Try a mobile forensics platform like Cellebrite or IPED
+
+Explore encrypted drive investigations And eventually..... I’d love to be part of an incident
+response or DFIR team where uncovering the “invisible truth” is the job.
+
+Final Reflection
+
+Digital forensics taught me that computers never forgets and investigators must learn to listen
+to the evidence.
+
+If you’re curious about this field, try Autopsy yourself. Break things. Fix them. Investigate
+your own digital footprints. Trust me..... It’s way more fun than watching cybercrime shows.
+
+And hey..... You even get to be the one wearing the sunglasses this time.
+
+Resources & Links
+
+Here are all the tools, sources, and references that supported my investigation:
+
+Tools Used
+
+Autopsy — The Sleuth Kit UI
+
+Official Download: https://www.sleuthkit.org/autopsy/
+
+Digital-Forensics-Guide Repository (Referenced for learning)
+
+https://github.com/mikeroyal/Digital-Forensics-Guide
+
+Ubuntu Linux
+
+https://ubuntu.com/download
+
+Research Sources
+
+NIST Digital Forensics Report (2022)
+
+https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8387.pdf
+
+S-Technolock: Forensic Encryption & Data Recovery
+
+https://www.stechnolock.com/article/Forensic-Encryption-Discovering.pdf
+
+ChatGPT Assistance for troubleshooting & guidance
+
+Self-Assessment
+
+What I’m Most Proud Of:
+
+How much hands on learning this article represents. I didn’t just follow instructions, I
+researched, struggled, fixed and documented real forensic methods.
+
+What Still Needs Work:
+
+Better screenshot annotations and adding more investigation examples (like deleted file
+recovery or keyword search results).
+
+Feedback I’m Looking For:
+
+Do my explanations feel clear and helpful for beginners? Are there any places where I should
+expand technical details further?
+
+How This Article Shows My Skills:
+
+● Technical execution
+
+● Problem solving and adaptability
+
+● Ability to explain complex concepts clearly
+
+● Professional writing and documentation
+● Real cybersecurity passion
