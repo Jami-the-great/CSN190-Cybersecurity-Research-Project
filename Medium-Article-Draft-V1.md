@@ -7,7 +7,7 @@ If there’s one thing, I learned in digital forensics..... It’s that nothing 
 When I decided to analyze a disk image using Autopsy (a real forensic investigation tool) I
 thought “Cool!!!! This will be quick.”
 
-# ***dramatic music***
+ ***dramatic music***
 
 Downloads failed.
 
@@ -122,3 +122,28 @@ What You’ll Need (Prerequisites)
 Step-by-Step Setup
 
 Step 1 — Install Autopsy/ Forensic Dependencies
+
+To prepare the VM for digital forensics I installed core packages Autopsy depends on:
+
+sudo apt-get update
+
+sudo apt-get install sleuthkit
+
+Why this matters: SleuthKit contains the backend tools, Autopsy uses to extract artifacts.
+
+If dependencies are missing → Autopsy will launch but nothing will analyze.
+
+Step 2 — Launch Autopsy from Terminal
+
+Autopsy doesn’t open as a normal desktop application, It must be launched like this:
+
+Sudo autopsy
+
+What should happen:
+
+● The terminal starts a server
+
+● It shows a URL like:
+
+http:/localhost:9999/autopsy
+
