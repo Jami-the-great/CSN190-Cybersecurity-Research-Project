@@ -146,4 +146,7 @@ What should happen:
 ● It shows a URL like:
 
 http:/localhost:9999/autopsy
+<img width="1400" height="900" alt="Screen Shot 2025-12-03 at 7 29 48 PM" src="https://github.com/user-attachments/assets/adb2e1cc-f338-447d-94b3-b6c2e124b180" />
+
+
 
