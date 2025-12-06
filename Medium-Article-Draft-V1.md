@@ -201,8 +201,9 @@ Breakdown:
 
 | Flag | Meaning|
 |-----:|--------|
-|if=/dev/sda 1| Input file = whole VM disk |
-|of=evidence.dd 2| Output file = forensic image|
-
+|if=/dev/sda | Input file = whole VM disk |
+|of=evidence.dd | Output file = forensic image|
+| bs=1M | Copy in 1MB blocks |
+| Count 1000 | Only first 1GB for fast testing |
 
 
