@@ -238,7 +238,7 @@ Troubleshooting (Documented Fixes)
 
 These errors tried to ruin my forensic dreams:
 
-| Problem | why it happened| fix| 
+| Problem | why it happened| 
 |-----:|-------------------------|
 |if=/dev/sda | Input file = whole VM disk |
 |of=evidence.dd | Output file = forensic image|
