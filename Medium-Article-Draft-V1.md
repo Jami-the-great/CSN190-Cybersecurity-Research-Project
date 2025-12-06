@@ -147,6 +147,58 @@ What should happen:
 
 http:/localhost:9999/autopsy
 <img width="1400" height="900" alt="Screen Shot 2025-12-03 at 7 29 48 PM" src="https://github.com/user-attachments/assets/adb2e1cc-f338-447d-94b3-b6c2e124b180" />
+If it doesn’t launch? → reboot your VM and try again. Trust me.
 
+Step 3 — Open Autopsy in Firefox
 
+Copy/paste the server URL into Firefox:
+
+http://localhost:9999/autopsy
+
+Now the Autopsy dashboard appears. Here is where my confidence returned for 5 seconds
+
+<img width="1400" height="900" alt="Screen Shot 2025-12-05 at 6 11 47 PM" src="https://github.com/user-attachments/assets/d88658ba-980a-404f-95d6-60a633a055d8" />
+
+Step 4 — Autopsy requires a disk image to investigate.
+
+I tried downloading sample forensic images from:
+
+● DFIR datasets
+● Autopsy documentation
+● Random cyber blogs
+
+Every. Single. Link. Failed.
+
+Error examples:
+
+NoSuchKey
+
+File Not Found
+
+That’s when ChatGPT came in clutch with a better idea: “Why not make your own forensic
+image?”
+
+Genius. Free. No broken links.
+
+And I get to be the cyber criminal and investigator
+
+Step 5 — Creating My Own Disk Image (.dd)
+
+This is where I learned something BIG:
+
+A .dd file is a bit for bit copy of an entire storage device including deleted files, slack space
+and hidden metadata.
+
+Meaning:
+
+Even if someone deletes evidence..... The dd file keeps the ghost of the data.
+
+Command I used:
+
+sudo dd if=/dev/sda of=evidence.dd bs=1M count=1000
+
+Breakdown:
+
+Flag|Meaning 
+- if=/dev/sda|Input file = whole VM disk
 
