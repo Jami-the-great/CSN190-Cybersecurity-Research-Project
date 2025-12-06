@@ -249,3 +249,150 @@ These errors tried to ruin my forensic dreams:
 | Restart case + Add image once |
 | Delete case folder + create new|
 | Relaunch sudo autopsy |
+
+But honestly these problems taught me more than if everything worked perfectly.
+
+# Section Summary
+
+By the end of setup:
+
+● Autopsy installed & running
+
+● Browser UI accessible
+
+● Real disk image created
+
+● Evidence successfully ingested
+
+● Investigator mode activated
+
+● Using Autopsy to Uncover Hidden Credentials
+
+(aka: Me exposing myself as my own cyber criminal)
+
+Once my .dd image successfully loaded into Autopsy the real fun began...... Evidence
+hunting. Autopsy instantly scanned the image and rebuilt the file system like a digital crime
+scene. I could finally play the role of investigator and my first mission was simple:
+
+Find proof of activity from the “suspect” (Spoiler: the suspect was me.)
+
+Autopsy organizes everything beautifully..... Deleted files, user directories, metadata,
+timestamps, all displayed like breadcrumbs left behind by someone who thought they were
+being sneaky.
+
+Step 1 — Navigating the Evidence Tree
+
+The left side showed the full structure of my VM’s storage:
+
+● Root filesystem
+
+● Home folder
+
+● System logs
+
+● Deleted file category
+
+● File metadata artifacts
+
+This is where a forensic analyst starts connecting dots:
+
+What files exist?
+
+What changed recently?
+
+What looks suspicious?
+
+<img width="1400" height="900" alt="Screen Shot 2025-12-05 at 6 35 27 PM" src="https://github.com/user-attachments/assets/48006ffa-4a98-4132-bc8c-1f90d6f1b7a4" />
+
+Step 2 — Locating the “Key Evidence”
+
+Inside the home directory, Autopsy revealed a file:
+
+password.txt
+
+That familiar nervous feeling hit me.... Because I knew exactly what was inside. But seeing
+it appear as evidence made the experience feel real.
+
+Autopsy allows viewing files in different modes:
+
+● Text/ASCII
+
+● Hex view
+
+● Metadata view (timestamps, permissions)
+
+![EVIDENCE1](https://github.com/user-attachments/assets/01eae89c-baab-4728-8ee2-2889d1981bda)
+
+What did the file reveal?
+
+Thegreat1234.
+
+Yep.
+
+My own password.
+
+Found. Flagged. Exposed.
+
+Zero hacking skills required.
+
+What This Shows in Real Forensics
+
+Even simple text files can become critical evidence.
+
+Credentials found on a disk can lead to:
+
+● Account access
+
+● Data exfiltration trails
+
+● Attribution of the suspect
+
+● And in real cases — courtroom proof
+
+If that file had been deleted?
+
+Autopsy still could’ve recovered it.
+
+Because a .dd image captures:
+
+● Deleted files
+
+● Slack space
+
+● Unallocated sectors
+
+● All hidden metadata
+
+So even if a suspect wipes evidence...
+
+The drive remembers.
+
+And Autopsy will snitch.
+
+Step 3 — Verifying the Source
+
+Autopsy metadata showed:
+
+● When the file was created
+
+● Modified timestamps
+
+● User that made it (me)
+
+● Where it lived before imaging
+
+In forensics timestamps = truth.
+
+They establish the “who, what, when” which builds the case narrative.
+
+![EVIDENCE2](https://github.com/user-attachments/assets/04e87b3e-18b5-4469-a165-6e83914df5d2)
+
+Results Recap
+
+By the end of my investigation, I confirmed:
+
+| Finding |Autopsy Results|
+|-----:|-------------------------|
+|Evidence image | loaded Successful|
+|User directory | parsed Visible|
+|password.txt |located Found |
