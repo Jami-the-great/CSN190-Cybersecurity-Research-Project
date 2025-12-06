@@ -202,7 +202,7 @@ Breakdown:
 | Flag | Meaning|
 |-----:|--------|
 |if=/dev/sda 1| Input file = whole VM disk |
-
+|of=evidence.dd 2| Output file = forensic image|
 
 
 
