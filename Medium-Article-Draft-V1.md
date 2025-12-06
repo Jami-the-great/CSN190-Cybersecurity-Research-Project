@@ -243,3 +243,9 @@ These errors tried to ruin my forensic dreams:
 |“File Analysis Disabled”|I accidentally added duplicate images | Restart case + Add image once |
 |“Invalid Host”| Broken case directory| Delete case folder + create new|
 |GUI wouldn’t appear|Autopsy wasn’t running in terminal | Relaunch sudo autopsy |
+
+|fix| ..
+|-----:|-------------------------|
+| Restart case + Add image once |
+| Delete case folder + create new|
+| Relaunch sudo autopsy |
