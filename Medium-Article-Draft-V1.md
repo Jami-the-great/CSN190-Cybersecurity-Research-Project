@@ -199,6 +199,10 @@ sudo dd if=/dev/sda of=evidence.dd bs=1M count=1000
 
 Breakdown:
 
-Flag|Meaning 
-- if=/dev/sda|Input file = whole VM disk
+| Flag | Meaning|
+|-----:|--------|
+|if=/dev/sda 1| Input file = whole VM disk |
+
+
+
 
