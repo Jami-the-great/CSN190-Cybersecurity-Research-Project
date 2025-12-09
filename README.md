@@ -9,7 +9,10 @@
 
 ## Project Overview
 
-This repository includes all of my cybersecurity research project work for CSN 190. I built a digital forensics lab using Ubuntu Linux in VirtualBox and installed Autopsy to analyze a disk image. I recovered deleted data, looked at metadata, and documented the investigation process like a real cybersecurity analyst. This portfolio shows my progress with cybersecurity tools, Linux, virtualization, and digital forensics.
+This is my full portfolio for CSN 190, where I officially became a **cyber detective** 🕵
+
+I built a digital forensics lab, using Ubuntu inside VirtualBox, installed Autopsy and investigated a disk image to uncover deleted files and hidden data. It was like CSI except instead of sunglasses and dramatic music..... I had Google and patience. A lot of patience.
+This project helped me learn how cybersecurity really works..... Mistakes and all, and that deleted files love to come back to haunt you 👀
 
 ---
 
