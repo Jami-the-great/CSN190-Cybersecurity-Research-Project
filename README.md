@@ -11,7 +11,7 @@
 
 This is my full portfolio for CSN 190, where I officially became a **cyber detective** 🕵
 
-I built a digital forensics lab, using Ubuntu inside VirtualBox, installed Autopsy and investigated a disk image to uncover deleted files and hidden data. It was like CSI except instead of sunglasses and dramatic music..... I had Google and patience. A lot of patience.
+I built a digital forensics lab, using Ubuntu inside VirtualBox, installed Autopsy and investigated a disk image to uncover deleted files and hidden data. It was like CSI except instead of sunglasses and dramatic music..... I had AI and patience. A lot of patience.
 This project helped me learn how cybersecurity really works..... Mistakes and all, and that deleted files love to come back to haunt you 👀
 
 ---
