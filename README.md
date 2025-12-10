@@ -61,12 +61,10 @@ If you want to explore my findings directly:
 
 What I learned:
 
-- Digital forensics is actually fun (and kinda nosy)
-- Linux will test your patience but makes you smarter
-- Autopsy can find EVERYTHING… even what you forgot existed 😳
-- Documentation is a superpower in cybersecurity 💪
+Throughout this project I built my very first digital forensics lab and actually managed to make Autopsy run without crying..... (too much ). I learned how to recover deleted files, read metadata and basically be nosy in a way that’s legal and professional. Every mistake taught me something, especially how important documentation is when you’re troubleshooting at 2am with only AI as your emotional support.
 
-This project helped me realize that cybersecurity is exactly where I want to be — and I’m just getting started.
+This project really confirmed that cybersecurity is the path I want to chase. I like solving problems, finding hidden things and understanding how digital evidence tells a story. I started this semester as a curious beginner and now I’m a curious beginner with skills
+This project helped me realize that cybersecurity is exactly where I want to be..... And I’m just getting started.
 
 ---
 
